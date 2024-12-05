@@ -1,8 +1,15 @@
 import React from 'react'
+import Header from '../other/Header'
+import CrateTast from '../other/CrateTast'
+import AllTask from '../other/AllTask'
 
 function AdminDasboard() {
   return (
-    <div>AdminDasboard</div>
+    <div className='p-10'>
+      <Header />
+      <CrateTast />
+      <AllTask />
+    </div>
   )
 }
 

@@ -1,11 +1,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-* {
-  color: #fff;
-}
-
 body{
-  background-color: #000;
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(#94a3b8,#000);
+}
+#TaskList::-webkit-scrollbar {
+  display: none;
 }

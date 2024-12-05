@@ -1,8 +1,13 @@
 import React from 'react'
 
-function AuthContext() {
+function AuthContext({children}) {
+
+  // useEffect(() => {
+  // SetLocalStorage()
+  //   GetLocalStorage()
+  // },)
   return (
-    <div>AuthContext</div>
+    <div>{children}</div>
   )
 }
 

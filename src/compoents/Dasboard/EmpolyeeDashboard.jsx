@@ -1,8 +1,17 @@
 import React from 'react'
+import Header from '../other/Header'
+import TaskListNumbers from '../other/TaskListNumbers'
+import TaskList from '../TaskList/TaskList'
 
-function EmpolyeeDashboard() {
+const EmpolyeeDashboard = () => {
   return (
-    <div>EmpolyeeDashboard</div>
+    <>
+      <div className="p-20 bg-gradient-to-b to-[#fde047] from-[#c084fc] h-screen">
+        <Header />
+        <TaskListNumbers />
+        <TaskList />
+      </div>
+    </>
   )
 }
 
